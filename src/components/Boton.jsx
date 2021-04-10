@@ -6,8 +6,8 @@ const Boton = () => {
     const [nombre, setNombre, apellido, setApellido, texto, setTexto] = useContext(ThemeContext);
 
     const pulsar = (e) => {
-        console.log("Me has pulsado!");
         console.log("--->");
+        console.log("Me has pulsado!");
         console.log(nombre);
         console.log(apellido);
         console.log(texto);

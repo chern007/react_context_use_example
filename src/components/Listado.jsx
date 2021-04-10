@@ -6,7 +6,6 @@ const Listado = () => {
 
     // const [texto, setTexto] = useState('');
     const [nombre, setNombre, apellido, setApellido, texto, setTexto] = useContext(ThemeContext);
-    console.log("--->");
 
     return (
 
